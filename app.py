@@ -11,7 +11,7 @@ st.write("Get the current weather and forecast for your city!")
 city_name = st.text_input("Enter City Name", "")
 
 # OpenWeatherMap API details
-api_key = "2addb40ae383c8bc71e47de6df1c5c92"  
+api_key = ""  
 base_url = "https://api.openweathermap.org/data/2.5/"
 
 # Fetch current weather data
